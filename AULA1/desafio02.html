@@ -9,7 +9,7 @@
     <meta name="description" content="Esse é uma pagina modelo">
     <meta name="keywords" content="sites,web desenvolvimento backend">
     <meta name="author" content="Segura">
-    <title>DESAFIO 1</title>
+    <title>desafio 2</title>
 
     <!-- ICONE DO MEU SITE-->
     <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
@@ -19,18 +19,19 @@
 <body>
     <h1> integrando os recursos de interativaidade do JS</h1>
     <hr>
+    <p id="resposta"></p>
     <script>
-        window.alert("DESAFIO 1");
+        window.alert("DESAFIO 2");
         let num1 = window.prompt("DIGITE O PRIMEIRO NÚMERO");
         let num2 = window.prompt("DIGITE O SEGUNDO NÚMERO");
         let resultado = window.prompt("QUAL OPERAÇÃO DESEJA REALIZAR? DIGITE: + , -");
-        let resposta;
+        let resposta=0;
         if (resultado == "+") {
             resposta = parseFloat(num1) + parseFloat(num2);
-        } else if (resultado == "-") {
+        } else {
             resposta = parseFloat(num1) - parseFloat(num2);
         }
-        window.alert("O resultado da operação é: " + resposta);
+       document.getElementById("resposta").innerHTML= "O resultado da operação é: " + resposta;
 
     </script>
 </body>
