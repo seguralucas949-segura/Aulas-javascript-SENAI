@@ -9,7 +9,7 @@
     <meta name="description" content="Esse é uma pagina modelo">
     <meta name="keywords" content="sites,web desenvolvimento backend">
     <meta name="author" content="Segura">
-    <title>EXERCÍCIO 01</title>
+    <title>EXERCÍCIO 03</title>
 
     <!-- ICONE DO MEU SITE-->
     <link rel="icon" href="" type="image/x-icon">
@@ -38,7 +38,7 @@
         <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
         <br>
         <button type="button" onclick="alert('Botão clicado!')">Clique aqui</button>
-        
+
     </form>
 
 
@@ -104,6 +104,23 @@
         tag_button[0].style.borderRadius = "5px";
         tag_button[0].style.cursor = "pointer";
         tag_button[0].style.textAlign = "center";
+
+        const tag_img = document.getElementsByTagName('img');
+        console.log(tag_img);
+        tag_img[0].style.width = "600px";
+        tag_img[0].style.height = "500px";
+        tag_img[0].style.display = "flex";
+        tag_img[0].style.margin = "20px auto";
+        tag_img[0].style.border = "5px solid black";
+
+
+        tag_img[0].src = "img/imf.jpg";
+
+        if (tag_button[0].onclick) {
+            tag_img[0].src = "img/imf.jpg";
+        } else {
+            tag_img[0].src = "img/Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg.jpg";
+        }
 
 
 
