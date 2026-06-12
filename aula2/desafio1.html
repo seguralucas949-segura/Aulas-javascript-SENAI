@@ -18,14 +18,12 @@
 
 <body>
     <h1><mark> ELEMENTOS (TAGS)</mark>DO HTML ATRAVÉS DO JAVASCRIPT </h1>
-    <hr>
     <div>
         <p>Estamos aprendendo javascript</p>
-        <hr>
+
         <p> Aprender é muiro legal!!</p>
-        <hr>
+
         <p> E para ajudar o aprendizado, é PRECISO praticar e exercitar </p>
-        <hr>
     </div>
     <script>
         const tags_p = document.getElementsByTagName('p')
@@ -50,9 +48,25 @@
         tag_p_3.style.textAlign = "center";
 
 
-        tag_p_3.innerHTML="ALTEREI O CONTEÚDO";      
-        tag_p_2.innerText="MUDEI" 
+        tag_p_3.innerHTML = "ALTEREI O CONTEÚDO";
+        tag_p_2.innerText = "MUDEI"
+        const tag_body = document.getElementsByTagName('body');
+        console.log(tag_body);
+        tag_body[0].style.backgroundColor = "gray";
 
+        tag_body[0].style.border = "10px solid black";
+
+        const tag_div = document.getElementsByTagName('div');
+        console.log(tag_div);
+        tag_div[0].style.backgroundColor = "blue";
+
+        const tag_h1 = document.getElementsByTagName('h1');
+        console.log(tag_h1);
+        tag_h1[0].style.color = "white";
+        tag_h1[0].style.textAlign = "center";
+
+        
+        
 
 
     </script>
