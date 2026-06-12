@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- TAG DO MEU SITE-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Esse é uma pagina modelo">
+    <meta name="keywords" content="sites,web desenvolvimento backend">
+    <meta name="author" content="Segura">
+    <title>desafio 3</title>
+
+    <!-- ICONE DO MEU SITE-->
+    <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
+
+</head>
+
+<body>
+    <h1> integrando os recursos de interativaidade do JS</h1>
+    <hr>
+    <p id="resposta"></p>
+    <script>
+        window.alert("DESAFIO 4");
+
+        let peso = window.prompt("DIGITE O SEU PESO");
+        let altura = window.prompt("DIGITE A SUA ALTURA");
+        let imc = parseFloat(peso) / (parseFloat(altura) * parseFloat(altura));
+        let resposta = "";
+        if (imc < 18.5) {
+            resposta = "Abaixo do peso";
+        } else if (imc >= 18.5 && imc < 25) {
+            resposta = "Peso normal";
+        } else if (imc >= 25 && imc < 30) {
+            resposta = "Acima do peso";
+        } else if (imc >= 30 && imc < 35) {
+            resposta = "Obesidade grau I";
+        } else if (imc >= 35 && imc < 40) {
+            resposta = "Obesidade grau II";
+        } else {
+            resposta = "Obesidade grau III";
+        }
+        document.getElementById("resposta").innerHTML = "O seu imc é: " + imc.toFixed(2) + " e a sua situação é: " + resposta;
+
+
+    </script>
+</body>
+
+</html>
