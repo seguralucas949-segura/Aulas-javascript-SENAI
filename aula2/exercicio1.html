@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
 
@@ -11,14 +12,22 @@
     <title>EXERCÍCIO 01</title>
 
     <!-- ICONE DO MEU SITE-->
-    <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
+    <link rel="icon" href="img/Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg" type="image/x-icon">
 
 </head>
+
 <body>
-    <h1>OLÁ MUNDO EM JS: <mark>ALERT</mark></h1>
+    <h1><mark> ELEMENTOS (TAGS)</mark>DO HTML ATRAVÉS DO JAVASCRIPT </h1>
     <hr>
+    <div>
+        <p>Estamos aprendendo javascript</p>
+        <p> Aprender é muiro legal!!</p>
+        <p> E para ajudar o aprendizado, é PRECISO praticar e exercitar </p>
+    </div>
     <script>
-        window.alert("OLÁ MUNDO EM JS");
+        const tags_p = document.getElementsByTagName('p')
+        console.log = tags_p;
     </script>
 </body>
+
 </html>
