@@ -9,7 +9,7 @@
     <meta name="description" content="Esse é uma pagina modelo">
     <meta name="keywords" content="sites,web desenvolvimento backend">
     <meta name="author" content="Segura">
-    <title>EXERCÍCIO 03</title>
+    <title>DESAFIO 04 - AULA 02</title>
 
     <!-- ICONE DO MEU SITE-->
     <link rel="icon" href="" type="image/x-icon">
@@ -40,7 +40,7 @@
         <button type="button" onclick="alert('Botão clicado!')">Clique aqui</button>
 
     </form>
-    <img src="img/Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg" alt="imagem de teste">  
+    <img src="img/img1.jpg" alt="imagem de teste" title="Logo1">  
     <button onclick="trocar_img()">TROCAR IMAGEM</button>
     
 
@@ -117,10 +117,12 @@
         tag_img[0].style.border = "5px solid black";
        //trocar imaem ao clicar no botão  infinitas vezes
         function trocar_img() {
-            if (tag_img[0].src = ("Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg")) {
-                tag_img[0].src = "img/imf.jpg";
-            } else if (){
-                tag_img[0].src = "img/Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg";
+            if (tag_img[0].title=="Logo1" ) {
+                tag_img[0].src = "img/img2.jpg";
+                tag_img[0].title="Logo2"
+            } else{
+                tag_img[0].src = "img/img1.jpg";
+                tag_img[0].title="Logo1"
             }
 
         }
