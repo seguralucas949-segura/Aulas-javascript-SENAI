@@ -12,8 +12,14 @@
     <title>EXERCÍCIO 01</title>
 
     <!-- ICONE DO MEU SITE-->
-    <link rel="icon" href="img/Screenshot-2022-07-13-at-16.28.00-e1657722545844.jpg" type="image/x-icon">
-
+    <link rel="icon" href="" type="image/x-icon">
+    <style>
+        p {
+            background-color: purple;
+            color: #ffffff;
+            text-align: center;
+        }
+    </style>
 </head>
 
 <body>
@@ -27,6 +33,12 @@
     <script>
         const tags_p = document.getElementsByTagName('p')
         console.log = tags_p;
+        let tags_p1 = tags_p[0];
+        console.log(tags_p1);
+        tags_p1.style.backgroundColor = "purple"
+        tags_p1.style.color = "white"
+        tags_p1.style.textAlign = "cerner"
+
     </script>
 </body>
 
