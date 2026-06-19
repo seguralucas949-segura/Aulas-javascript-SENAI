@@ -1,0 +1,10 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+
+body{
+    background-color: var(--midnight-violet);
+    color: var(--platinum);
+    font-family: Arial, Helvetica, sans-serif;
+}

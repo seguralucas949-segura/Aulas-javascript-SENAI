@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@import "reset.css";
+@import "cores.css";
+
+
+body {
+    color: var(--platinum);
+    background-color: #000;
+}
+header{
+    background-color: var(--midnight-violet);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+}
+a{
+    color: var(--platinum);
+    text-decoration: none;
+    font-weight: bold;
+}
+.aula-card{
+    background-color: var(--midnight-violet);
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
