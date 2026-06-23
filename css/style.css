@@ -7,14 +7,14 @@ body{
 	color: var(--platinum);
 	font-family: Arial, Helvetica, sans-serif;}
 header{
-    header{
+    
     background-color: white;
     padding: 20px;
     text-align: center;
     border-radius: 12px;
 }
     
-}
+
 .aulas{
 	display: flex;
 	gap: 20px;
