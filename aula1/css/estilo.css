@@ -5,10 +5,10 @@
 
 body {
     color: var(--platinum);
-    background-color: #000;
+    background-color: #decfcf;
 }
 header{
-    background-color: var(--midnight-violet);
+    background-color: #ca8787;
     padding: 20px;
     text-align: center;
     border-radius: 12px;
@@ -19,7 +19,7 @@ a{
     font-weight: bold;
 }
 .aula-card{
-    background-color: var(--midnight-violet);
+    background-color: #578981;
     width: 80%;
     margin: 40px auto;
     padding: 20px;
